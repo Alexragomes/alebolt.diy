@@ -1,13 +1,1 @@
-name = "bolt"
-compatibility_flags = ["nodejs_compat"]
-compatibility_date = "2024-07-01"
-pages_build_output_dir = "build/client" # Removed "./" since Cloudflare expects a relative path
 
-[build]
-command = "pnpm run build" # Ensures Cloudflare knows how to build the project
-
-[env]
-NODE_VERSION = "18.x"
-PNPM_VERSION = "8.x"
-
-send_metrics = false
