@@ -1,3 +1,6 @@
+[env]
+NODE_VERSION = "18.x"
+PNPM_VERSION = "8.x"
 #:schema node_modules/wrangler/config-schema.json
 name = "bolt"
 compatibility_flags = ["nodejs_compat"]
